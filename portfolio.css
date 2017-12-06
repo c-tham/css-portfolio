@@ -1,0 +1,94 @@
+* {
+    /* outline: 1px dotted gold; */
+}
+#wrapper {
+    width: 970px;
+    background-color: white;
+}
+#title {
+    display: block;
+}
+#title h1 {
+    float: left;
+    padding-left: 15px;
+}
+#title h3 {
+    float: right;
+    padding-right: 15px;
+}
+#body {
+    background-color: red;
+    padding: 60px 10px 10px 10px;
+    margin: 0px;
+}
+#body1 {
+    display: inline-block;
+}
+#body1 img {
+    width: 400px;
+    border: 4px solid white;
+}
+#box {
+    display: inline-block;
+    width: 54%;
+    padding-left: 20px;
+   vertical-align: top;
+}
+#body2 {
+    display: block;
+    margin: 15px 0px 0px 0px;
+}
+#body2 img {
+    width: 100%;
+}
+#body3 img {
+    width: 50px;
+}
+
+.box1 {
+    display: inline-block;
+    width: 32%;
+}
+.box2 {
+    display: inline-block;
+    width: 32%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.box3 {
+    display: inline-block;
+    width: 32%;
+}
+.boxHeader {
+    background-color: silver;
+    padding: 1px 10px;
+    margin: 0px;
+    color: white;
+}
+.boxBody {
+    background-color: white;
+    padding: 10px;
+    margin: 0px;
+}
+.boxBody h4 {
+    display: block;
+    border: 1px solid green;
+    border-radius: 4px;
+    text-align: center;
+}
+#footer {
+    text-align: center;
+    padding: 2px;
+}
+#footer div {
+    display: inline-block;
+}
+#footer div img {
+    width: 30px;
+    margin: 0px auto;
+    vertical-align: center;
+}
+#footer div h3 {
+    display: inline-block;
+
+}

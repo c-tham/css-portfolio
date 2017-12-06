@@ -1,12 +1,12 @@
 * {
-    /* outline: 1px dotted gold; */
+    outline: 1px dotted gold;
 }
 #wrapper {
     width: 970px;
     background-color: white;
 }
 #title {
-    display: block;
+    height: 70px;
 }
 #title h1 {
     float: left;
@@ -18,7 +18,7 @@
 }
 #body {
     background-color: red;
-    padding: 60px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
     margin: 0px;
 }
 #body1 {
@@ -71,10 +71,11 @@
     margin: 0px;
 }
 .boxBody h4 {
-    display: block;
     border: 1px solid green;
     border-radius: 4px;
+    width: 150px;
     text-align: center;
+    margin: 0px auto;
 }
 #footer {
     text-align: center;
@@ -85,8 +86,6 @@
 }
 #footer div img {
     width: 30px;
-    margin: 0px auto;
-    vertical-align: center;
 }
 #footer div h3 {
     display: inline-block;
